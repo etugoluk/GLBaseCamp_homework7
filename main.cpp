@@ -14,7 +14,7 @@ int main()
     cin >> yrs;
 
     Wine holding(lab, yrs);
-    // holding.getBottles();
+    holding.getBottles();
     holding.show(); // print wine info
 
     constexpr int kYears = 3;
